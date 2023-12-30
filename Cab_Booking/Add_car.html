@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Car</title>
+  <link rel="stylesheet" href="CSS/Add_car.css">
+  <script src="JS/Add_car.js"></script>
+</head>
+<body>
+  <nav class="nav">
+    <ul>
+      <li>
+        <img src="images/logo.png" class="logo" alt="">
+      </li>
+      <li>
+        <a href="Admin_home.html"  ><p class="home
+          ">Home</p></a>
+      </li>
+      <li>
+        <a href="User_list.html
+        " ><p class="user_list
+          ">User List</p></a>
+      </li>
+      <li>
+        <a href="Add_car.html" class="active"><p class="add_car" >Add Car</p></a>
+      </li>
+      <li>
+        <a href="Car_list.html"><p class="car_list">Car List</p></a>
+      </li>
+      <li>
+        <a href="Booking_info.html"><p class="booking_info">Booking Info</p></a>
+      </li>
+      <li>
+        <a href="index.html"><p class="car_list">Log out</p></a>
+      </li>
+    </ul>
+  </nav>
+  <!-- add car in admin -->
+  <div class="container">
+    
+  <h1 class="heading">Add Car</h1>
+       <input type="text" class="brand_name" placeholder="Brand Name">
+    <input type="text" class="model" placeholder="Model Name">
+    <input type="text" class="rent" placeholder="Rent/Day">
+    <input type="text" class="seat" placeholder="No of Seats">
+    <input type="text" class="driver_name" placeholder="Driver Name">
+    <input type="text" class="driver_no" placeholder="Driver_Number">
+    <input type="file" class="car_image" placeholder="">
+    <button class="add_btn" onclick="get_car_list()" >Add</button>
+  </div>
+ 
+</body>
+</html>

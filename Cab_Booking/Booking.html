@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <script src="JS/Booking.js"></script>
+    <link rel="stylesheet" href="CSS/user-index.css">
+    <link rel="stylesheet" href="CSS/Booking.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+          <ul>
+            <li>
+              <img src="images/logo.png" class="logo" alt="">
+            </li>
+            <li>
+              <a href="user-dashboard.html"><p class="home
+                ">Home</p></a>
+            </li>
+            <li>
+              <a href="Car_listing.html"   class="active"><p class="car_listing" >Car listing</p></a>
+            </li>
+            <li>
+              <a href="user-booking.html"><p class="my_booking">My Booking</p></a>
+            </li>
+            <li>
+              <a href=""><p class="About">About Us</p></a>
+            </li>
+            <li>
+              <a href="Signin.html"><p class="log_out">Log out</p></a>
+            </li>
+            <li>
+              <a href=""><button  class="user-img">D</button><h id="user-name"></h></a>
+            </li>
+          </ul>
+        </nav>
+        </header>
+        <div class="container">
+            <div class="car">  </div>
+            <div class="booking_details">
+        <div class="table">
+        <table>
+        <tr><td> No of days</td><td><input class="no_of_days" type="number"></td></tr>
+        <tr><td>Date</td><td><input class="date" type="date"></td></tr>
+        <tr><td> Pick-up point</td><td><input class="pick_up_point" type="text"></td></tr>
+        <tr><td> Drop point</td><td><input class="drop_point" type="text" ></td></tr>
+        </table>
+        </div>
+        <div>
+    <div><button class="book" onclick="getBookingInfo()">Book</button></div>
+    </div>
+    </div>
+    </div>
+    </body>
+</html>
